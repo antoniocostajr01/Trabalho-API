@@ -6,7 +6,7 @@ const port = 3000;
 
 
 //Por padrão, o Express não entende automaticamente o corpo (body) das requisições POST.
-//Precisamos adicionar um “middleware” (ou tradutor) que permite isso.
+//Preciso adicionar um “middleware” (ou tradutor) que permite isso.
 //Ela faz o Express entender dados enviados no formato JSON pelo Postman.
 app.use(express.json());
 
